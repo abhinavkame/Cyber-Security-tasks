@@ -1,0 +1,40 @@
+# Nmap 7.97 scan initiated Mon Jun 23 19:15:03 2025 as: nmap -sS -oN scan_result.txt 192.168.0.0/24
+Nmap scan report for 192.168.0.1
+Host is up (0.0023s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: E0:1C:FC:44:C0:BA (D-Link International)
+
+Nmap scan report for 192.168.0.100
+Host is up (0.019s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+10000/tcp open  snet-sensor-mgmt
+MAC Address: 08:3A:2F:86:6F:F0 (Guangzhou Juan Intelligent Tech Joint Stock)
+
+Nmap scan report for 192.168.0.103
+Host is up (0.029s latency).
+All 1000 scanned ports on 192.168.0.103 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D6:7A:B2:7A:60:E9 (Unknown)
+
+Nmap scan report for 192.168.0.107
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.0.107 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: BA:1C:B9:22:A6:76 (Unknown)
+
+Nmap scan report for 192.168.0.102
+Host is up (0.00032s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1521/tcp open  oracle
+8080/tcp open  http-proxy
+
+# Nmap done at Mon Jun 23 19:15:43 2025 -- 256 IP addresses (5 hosts up) scanned in 39.74 seconds
